@@ -91,3 +91,4 @@ potential datasets:
 - cherry blossoms: https://www.bbc.com/news/world-asia-56574142
 - MCU fanfic: https://www.reddit.com/r/dataisbeautiful/comments/k2uq14/most_commonly_occurring_marvel_cinematic_universe/gdx1dng/?context=3
 - HP fanfic: https://www.reddit.com/r/dataisbeautiful/comments/ju8iuu/most_commonly_occurring_harry_potter_fanfiction/
+- COVID vaccine: https://www.reddit.com/r/dataisbeautiful/comments/mgi44v/oc_visualizations_of_the_covid19_vaccine/
