@@ -6,3 +6,7 @@ DataViz challenge for April 2021.
 
 Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChallenge_2021) and [#30DayChartChallenge](https://twitter.com/30DayChartChall) for more info.
 
+---
+
+### 1: part-to-whole
+<img width="400" src ="images/1-part_to_whole.png">
