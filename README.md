@@ -10,3 +10,6 @@ Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChal
 
 ### 1: part-to-whole
 <img width="400" src ="images/1-part_to_whole.png">
+
+### 2: pictogram
+<img width="700" src ="images/2-pictogram.png">
