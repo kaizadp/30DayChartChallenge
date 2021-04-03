@@ -42,7 +42,7 @@ maine_dat =
     ggplot(aes(values = count, label = type, color = type))+
     #geom_waffle(fill = "darkgreen", size = 0.5)+
     geom_pictogram(n_rows = 10,
-                   size = 8 #, color = "darkgreen"
+                   size = 12 #, color = "darkgreen"
                    )+
     scale_label_pictogram(values = c(tree = "tree", filler = "apple", person = "male" ))+
       scale_color_manual(values = c("darkgreen", "black", "black"))+
