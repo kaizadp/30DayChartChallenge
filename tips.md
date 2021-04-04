@@ -9,6 +9,9 @@ https://datavizcatalogue.com/search/part_to_a_whole.html
 https://rdrr.io/github/hrbrmstr/waffle/man/geom_pictogram.html
 
 3. historical
+
+https://www.sealevels.org/
+
 4. magical
 
 5. slope
@@ -32,7 +35,10 @@ https://datavizproject.com/data-type/radical-histogram/
 https://www.data-to-viz.com/graph/circularbarplot.html
 
 12. strips
- 
+
+https://www.kaggle.com/deepu1109/star-dataset
+
+
 ### relationships
 13. correlation
 14. space
@@ -68,6 +74,8 @@ Temperature stripes https://showyourstripes.info, http://berkeleyearth.org
 21. upwards
 
 Temperature stripes
+
+https://dominicroye.github.io/en/2018/how-to-create-warming-stripes-in-r/
 
 22. downwards
 
