@@ -61,9 +61,13 @@ https://rpubs.com/varnothing/691557
 Keeling Curve?
 https://keelingcurve.ucsd.edu
 
+https://climate.nasa.gov/climate_resources/24/graphic-the-relentless-rise-of-carbon-dioxide/
+
 Temperature stripes https://showyourstripes.info, http://berkeleyearth.org
 
 21. upwards
+
+Temperature stripes
 
 22. downwards
 
