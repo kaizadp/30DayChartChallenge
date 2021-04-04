@@ -13,3 +13,6 @@ Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChal
 
 ### 2: pictogram
 <img width="700" src ="images/2-pictogram.png">
+
+### 3: historical
+<img src ="images/3-historical.png">
