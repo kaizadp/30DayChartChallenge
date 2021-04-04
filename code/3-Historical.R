@@ -18,17 +18,18 @@ showtext::showtext_auto()
 lotr_dat = 
   tribble(
     ~age, ~year, ~event,
-    "YT", 1050, "Elves awaken",
+    "Years of the Trees \nYT", 1050, "Elves awaken",
     "YT", 1100, "Melkor imprisoned",
     "YT", 1362, "Galadriel born",
     "YT", 1450, "Silmarils created",
     "YT", 1500, "Moon and Sun created",
-    "FA", 001, "Men awaken",
+    "First Age \nFA", 001, "Men awaken",
     #    "FA", 457, "Sauron captures Minas Tirith",
     #    "FA", 500, "Fall of Gondolin",
     "FA", 532, "Elrond born",
     "FA", 590, "Morgoth cast into the Void",
-    #    "SA", 500, "Sauron rises again",
+    "Second Age \nSA", 32, "First king of Númenor",
+       "SA", 500, "Sauron rises again",
     "SA", 1500, "Rings of Power constructed",
     "SA", 1600, "One Ring forged",
     "SA", 1693, "Rivendell created",
@@ -39,7 +40,8 @@ lotr_dat =
     #    "SA", 3429, "Sauron takes Minas Ithil",
     #    "SA", 3429, "White Tree burned",
     "SA", 3441, "Sauron defeated #2",
-    "TA", 1000, "The Istari arrive to Middle Earth",
+    "Third Age \nTA", 2, "One Ring lost",
+    "TA", 1000, "The Istari arrive in Middle Earth",
     "TA", 1601, "The Shire created",
     "TA", 2002, "Minas Ithil falls",
     # "TA", 2460, "Sauron returns to Middle Earth",
@@ -53,10 +55,10 @@ lotr_dat =
     "TA", 3019, "Sauron defeated #3",
     #    "TA", 3021, "Third Age ends"
   ) %>% 
-  mutate(position = case_when(age == "YT" ~ year,
-                              age == "FA" ~ year + 1500,
-                              age == "SA" ~ year + 1500 + 587,
-                              age == "TA" ~ year + 1500 + 587 + 3441),
+  mutate(position = case_when(grepl("YT", age) ~ year,
+                              grepl("FA", age) ~ year + 1500,
+                              grepl("SA", age) ~ year + 1500 + 587,
+                              grepl("TA", age) ~ year + 1500 + 587 + 3441),
          label = paste0(age, " ", year, "\n", event))
 
 
@@ -87,4 +89,4 @@ lotr_dat %>%
   xlim(950, 8700)+ ylim(-10,10)
 
 
-ggsave("images/3-historical.png", width = 15, height = 6)
+ggsave("images/3-historical.png", width = 15, height = 7)
