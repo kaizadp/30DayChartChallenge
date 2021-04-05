@@ -16,3 +16,6 @@ Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChal
 
 ### 3: historical
 <img src ="images/3-historical.png">
+
+### 4: magical
+<img width="700" src ="images/4-magical.png">
