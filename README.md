@@ -19,3 +19,6 @@ Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChal
 
 ### 4: magical
 <img width="700" src ="images/4-magical.png">
+
+### 12: strip
+<img src ="images/12-strip.png">
