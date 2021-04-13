@@ -22,3 +22,6 @@ Check out [Z3tt/30DayChartChallenge_2021](https://github.com/Z3tt/30DayChartChal
 
 ### 12: strip
 <img src ="images/12-strip.png">
+
+### 13: correlation
+<img width="500" src ="images/13-correlation.png">
