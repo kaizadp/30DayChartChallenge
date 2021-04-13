@@ -43,8 +43,8 @@ maine_correl %>%
   annotate("curve", x = 2003, y = 5.2, xend = 2002, yend = 5, curvature = 0.3, color = "#ef476f", arrow = arrow(length = unit(0.3, "cm")))+
   
   
-  scale_y_continuous(limits = c(4,5.5), breaks = seq(2,6, by = 0.5), name = "margarine consumed, lbs", 
-                     sec.axis = sec_axis(~.*4 -13, name = "divorces per 1000 people"))+
+  scale_y_continuous(limits = c(4,5.5), breaks = seq(2,6, by = 0.5), name = "divorces per 1000 people", 
+                     sec.axis = sec_axis(~.*4 -13, name = "margarine consumed, lbs"))+
   scale_x_continuous(labels = scales::number_format(accuracy = 1, big.mark = ""))+
   
   labs(x = "",
